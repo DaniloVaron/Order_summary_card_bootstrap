@@ -1,0 +1,23 @@
+{
+  "name": "Order_summary_card_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniloVaron/Order_summary_card_bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniloVaron/Order_summary_card_bootstrap/issues"
+  },
+  "homepage": "https://github.com/DaniloVaron/Order_summary_card_bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

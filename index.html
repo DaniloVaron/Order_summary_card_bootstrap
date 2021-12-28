@@ -8,10 +8,8 @@
     <!-- displays site properly based on user's device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <title>Frontend Mentor |
-        <!--Order summary card   -->bootstrap
+    <title>Frontend Mentor | Order summary card bootstrap
     </title>
-
 
     <!-- Google fonts 'Red-Hat-Display' -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,75 +19,75 @@
         rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
 </head>
 
-<body>
+<body class="bg-primary vh-100 d-flex flex-column align-items-center justify-content-center">
     <!-- Imagen de Fondo -->
     <div class="bg_image"></div>
+
     <!-- Contenedor -->
-    <main class="container">
+    <main class="container escala p-0 ">
+        <!-- Carta -->
+        <article class="card border-0 redondeo overflow-hidden mb-2 shadow-lg">
 
-        <!-- Fila -->
-        <section class="row">
+            <!-- Imagen -->
+            <div class="">
+                <img src="./images/illustration-hero.svg" class="escala" alt="Imagen de la carta">
+            </div>
 
-            <!-- Carta -->
-            <article class="card">
+            <!-- Contenido -->
+            <div class="card-body bg-ligth text-center text-danger pt-4 px-4">
+                <!-- Titulo -->
+                <h2 class="h4 text-warning fw-bolder">Order Summary</h2>
 
-                <!-- Imagen -->
-                <div class="card-colum-img"></div>
+                <!-- Información -->
+                <p class="p-2">
+                    You can now listen to millions of songs, audiobooks, and podcasts on any
+                    device any where you like!
+                </p>
 
-                <!-- Contenido -->
-                <div class="card-colum-text">
+                <!-- Precios -->
+                <div class="bg-success redondeo d-flex align-items-center justify-content-between my-3 p-3">
 
-                    <!-- Referencia -->
-                    <div class="card-info">
-
-                        <!-- Titulo -->
-                        <h2 class="card-title">Order Summary</h2>
-
-                        <!-- Información -->
-                        <p class="card-text">
-                            You can now listen to millions of songs, audiobooks, and podcasts on any
-                            device any where you like!
-                        </p>
-
-                        <!-- Precios -->
-                        <div class="card-plan">
-
-                            <!-- Costo -->
-                            <article class="card-plan-cost">
-                                <img src="./images/icon-music.svg" alt="icon-music">
-                                <div>
-                                    <h4>Annual Plan</h4>
-                                    <p>$59.99/year</p>
-                                </div>
-                            </article>
-
-                            <!-- Devolución - Cambio -->
-                            <button class="btn card-plan-change">Change</button>
-                        </div>
-
-                        <!-- Botones del Final-->
-                        <div class="card-buttons">
-
-                            <!-- Pago -->
-                            <button class="btn card-pay">Proceed to Payment</button>
-
-                            <!-- Cancelación -->
-                            <a href="#" class="btn card-cancel">Cancel Order</a>
+                    <!-- Costo -->
+                    <div class="d-flex align-items-center">
+                        <img src="./images/icon-music.svg" alt="icon-music">
+                        <div class="ms-2">
+                            <h4 class="text-warning h6 m-0 fw-bolder">Annual Plan</h4>
+                            <p class="m-0">$59.99/year</p>
                         </div>
                     </div>
+
+                    <!-- Devolución - Cambio -->
+                    <button class="btn btn-link p-0 text-secondary fw-bold volumen cambio">Change</button>
+
                 </div>
-            </article>
-        </section>
+
+                <!-- Botones del Final-->
+                <div class="d-flex flex-column align-items-center">
+
+                    <!-- Pago -->
+                    <button class=" btn btn-secondary w-100 p-2 my-2 fw-bold volumen redondeo_2 cambio sombra">Proceed
+                        to Payment</button>
+
+                    <!-- Cancelación -->
+                    <a href="#" class="btn text-danger my-2 fw-bold volumen cancel">Cancel
+                        Order</a>
+                </div>
+            </div>
+        </article>
+
 
     </main>
 
-    <div class="attribution">
-        Desafío por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    <div class="attribution text-bold">
+        Desafío por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+            Mentor</a>.
         Codificado por <a href="https://github.com/DaniloVaron" target="_blank">Danilo Varon</a>.
     </div>
+
+
 
     <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>

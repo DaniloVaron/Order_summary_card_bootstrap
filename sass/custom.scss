@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+$font-family-base: "Red Hat Display", sans-serif;
+
+/* Primario */
+
+$primary: hsl(225, 100%, 94%);
+$secondary: hsl(245, 75%, 52%);
+
+/* Neutral */
+
+$success: hsl(225, 100%, 98%);
+$danger: hsl(224, 23%, 55%);
+$warning: hsl(223, 47%, 23%);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg_image {
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.escala {
+  width: 21rem;
+}
+
+.volumen {
+  font-size: 13px;
+}
+
+.cambio:hover {
+  opacity: 0.8;
+}
+
+.redondeo {
+  border-radius: 16px;
+}
+
+.redondeo_2 {
+  border-radius: 10px;
+}
+
+.sombra {
+  box-shadow: 0px 10px 40px $danger;
+}
+
+/* Datos Adicionales */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@include media-breakpoint-up(md) {
+  .bg_image {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
