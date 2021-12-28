@@ -16,7 +16,7 @@ El reto fue resuelto con html, css bootstrap y sass de una forma sencilla.
 
 ### Links
 
-- URL del Sitio: [Sitio Web](https://danilovaron.github.io/Order_summary_card/)
+- URL del Sitio: [Sitio Web](https://danilovaron.github.io/Order_summary_card_bootstrap/)
 
 ## Proceso
 
